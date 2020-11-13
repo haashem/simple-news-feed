@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:NewsFeedAPI/NewsFeedAPI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NewsFeedFeature/NewsFeedFeature.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Networking/Networking.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NYTimesNowApp/NYTimesNowApp.xcodeproj">
+   </FileRef>
+</Workspace>
