@@ -51,7 +51,7 @@ class NewsFeedViewControllerTests: XCTestCase {
         assertThat(sut, isRendering: [item0, item1])
     }
     
-    func loadFeedCompletion_doesNotAlterCurrentRenderingStateOnError() {
+    func test_loadFeedCompletion_doesNotAlterCurrentRenderingStateOnError() {
         let item0 = makeItem(id: "1", title: "title1", snippet: "snippet1", date: Date(), imageUrl: nil, articleUrl: anyURL())
         let (sut, loader) = makeSUT()
         
