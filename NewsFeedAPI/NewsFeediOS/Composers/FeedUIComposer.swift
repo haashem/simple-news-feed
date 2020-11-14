@@ -7,10 +7,15 @@
 
 import UIKit
 import NewsFeedFeature
+import WebKit
 
 public final class FeedUIComposer {
     
     private init() {}
+    
+    public static func feedDetailsWith(url: URL) -> NewsFeedDetailsViewController {
+        return NewsFeedDetailsViewController(url: url)
+    }
     
     public static func feedComposedWith(feedLoader: NewsFeedLoader, imageLoader: ImageDataLoader, selection: @escaping (NewsItem) -> Void = { _ in }) -> NewsFeedViewController {
         
